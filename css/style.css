@@ -3600,7 +3600,7 @@ Helpers
   /*paddings*/
   .p-xs-20 { padding: 20px !important; } }
 
-.space { width: 100%; display: block; clear: both; height: 60px; position: relative; }
+.space { width: 100%; display: block; clear: both; height: 20px; position: relative; }
 
 @media (max-width: 767.98px) { .text-md, .text-md span, .text-md span span { font-size: 46px !important; line-height: 58px !important; } }
 

@@ -4,19 +4,20 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="Zhengyuan Cooper Gao" />
-    <meta name="description" content="Art collection from Spectra Gallery">
+    <meta name="author" content="Posax" />
+    <meta name="description" content="Art collection from PosaX">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
-    <title>Spectra Gallery | The Multi-Purpose Gallery </title>
+    <title>PosaX | Votre Galerie d'Art </title>
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="formulaire/css/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700'><link rel="stylesheet" href="formulaire/css/style.css">
 </head>
 
-
-<body>
+<body style="background-color: #1E2022;">
 
 
     <!-- Body Inner -->
@@ -27,13 +28,13 @@
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
-                    <div id="logo"> <a href="index.html"><span class="logo-default">Spectra Gallery</span><span class="logo-dark">Spectra Gallery</span></a> </div>
+                    <div id="logo" data-animate="fadeInDown" data-animate-delay="300"> <a href="index.html"><span class="logo-default">PosaX</span><span class="logo-dark">PosaX</span></a> </div>
                     <!--End: Logo-->
                     <!-- Search -->
                     <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
                         <form class="search-form" action="search-results-page.html" method="get">
                             <input class="form-control" name="q" type="text" placeholder="Type & Search..." />
-                            <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+                            <span class="text-muted">Recherchez & pressez "Enter" ou "ESC" pour fermer</span>
                         </form>
                     </div>
                     <!-- end: search -->
@@ -54,16 +55,32 @@
                         <div class="container">
                             <nav>
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about-us.html">About us</a></li>
-                                    <li class="dropdown"><a href="#">Exhibitions</a>
+                                    <li><a href="index.html">Acceuil</a></li>
+                                    <li><a href="about-us.html">A propos de nous</a></li>
+                                    <li class="dropdown mega-menu-item"><a href="#">Artistes</a>
                                         <ul class="dropdown-menu">
-                                                    <li><a href="exhibition-list.html">List of Exhibitions</a></li>
-                                         </ul>
+                                            <li class="mega-menu-content">
+                                                <div class="row">
+                                                    <div class="col-lg-1-2">
+                                                        <ul>
+                                                            <li class="mega-menu-title">Etes-vous un artiste ?</li>
+                                                            <li><a href="exhibition-2023-1.html">S'inscrire</a></li>
+                                                            <li><a href="exhibition-2023-2.html">Se Connecter</a></li>
+                                                            <li><a href="PosaX.html">Completez votre profile</a></li>
+
+                                                            <li class="mega-menu-title">Etes-vous un client ?</li>
+                                                            <li><a href="mysticism-pre.html">Liste des Artistes</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Artists</a>
+                                    <li class="dropdown"><a href="#">Publier</a>
                                         <ul class="dropdown-menu">
-                                                    <li><a href="artist-list.html">List of Artists</a></li>
+                                                    <li><a href="PosaX.html">Ecrire un article</a></li>
+                                                    <li><a href="PosaX.html">Poster une oeuvre</a></li>
+                                                    <li><a href="PosaX.html">Vos publications</a></li>
                                          </ul>
                                     </li>
                                     <li><a href="https://spectragallery.github.io/blog/index.html">Blog</a></li>
@@ -78,47 +95,161 @@
         </header>
         <!-- end: Header -->
 
-    
+
         <!-- Page title -->
-        <section id="page-title" data-bg-parallax="images/BackgroundColor.jpg">
-            <div class="container">
+        <section id="page-title" data-bg-parallax="images/para4.jpg" >
+            <div class="container" >
                 <div class="container-fullscreen">
                     <div class="text-middle text-center text-end">
-                        <p class="lead" data-animate="fadeInDown" data-animate-delay="300">Contact us</p>
+                        <span style="font-weight: 900 !important;color:white !important"><p class="lead" data-animate="fadeInDown" data-animate-delay="300" style="font-weight: 900 !important;color:white !important">Postez Une Oeuvre</p></span>
                     </div>
                 </div>
                 <div class="breadcrumb">
                     <ul>
-                        <li><a href="index.html">Home</a> </li>
-                        <li class="active">Contact us </li>
+                        <li><a href="index.html">Acceuil</a> </li>
+                        <li class="active">Poster </li>
                     </ul>
                 </div>
             </div>
         </section>
         <!-- end: Page title -->
         <!-- CONTENT -->
-        <section>
+        <section style="color: white !important;background-color:#111111">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h3 class="text-uppercase">Email Address</Address></h3>
-                        <a href="mailto:spectra.gallery@outlook.com">spectra.gallery@outlook.com</a>
+                        <h3 class="text-uppercase" data-animate="fadeInDown" data-animate-delay="300" style="color: white !important;">Vous devez Remplir les informations et selectioner la categorie</Address>
+                        </h3>
                         <hr class="space">
-                        <h3 class="text-uppercase">Physical Address</Address></h3>
-                            <address>
-                                    <strong>China</strong><br>
-                                    Jingdezhen<br> 
-                            </address>
-                     </div>
-                    
-                
-                    <div class="col-lg-6">
-                        <h3 class="text-uppercase">Leave us a Quick Message</h3>
-                        <div class="row">
-                        <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/f07dfcd57ca1fb2a15b16a5e37f18b52?embedded=1"></div>
+                        <h3 class="text-uppercase" data-animate="fadeInDown" data-animate-delay="300" style="color: white !important;">Les photos doivent etre de bonne qualite,<br> Pour une meme oeuvre , il est conseille d'avoir des photos du meme <strong>"Ratio"</strong></Address>
+                        </h3>
+                        
+                    </div>
 
-                        <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-                        <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <!-- partial:index.partial.html -->
+                        <hr class="space">
+
+                            <form action='' class='form' data-animate="fadeInDown" data-animate-delay="300">
+                                <p class='field required'>
+                                    <label class='label required' for='titre'>Titre</label>
+                                    <input class='text-input' id='titre1' name='titre' style="font-size: 14.5px;" required type='text'
+                                        placeholder="le nom de l'oeuvre">
+                                </p>
+                                <div class='field'>
+                                    <label class='label'>Categorie</label>
+                                    <ul class='checkboxes'>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-0' name='choice' type='checkbox'
+                                                value='0'>
+                                            <label class='checkbox-label' for='choice-0'>Architecture</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-1' name='choice' type='checkbox'
+                                                value='1'>
+                                            <label class='checkbox-label' for='choice-1'>Collage</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-2' name='choice' type='checkbox'
+                                                value='2'>
+                                            <label class='checkbox-label' for='choice-2'>Dessin</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-3' name='choice' type='checkbox'
+                                                value='3'>
+                                            <label class='checkbox-label' for='choice-3'>Gravure</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-4' name='choice' type='checkbox'
+                                                value='4'>
+                                            <label class='checkbox-label' for='choice-4'>Immobilier</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-5' name='choice' type='checkbox'
+                                                value='5'>
+                                            <label class='checkbox-label' for='choice-5'>Installation</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-6' name='choice' type='checkbox'
+                                                value='6'>
+                                            <label class='checkbox-label' for='choice-6'>Land Art</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-7' name='choice' type='checkbox'
+                                                value='7'>
+                                            <label class='checkbox-label' for='choice-7'>Mosaïque</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-8' name='choice' type='checkbox'
+                                                value='8'>
+                                            <label class='checkbox-label' for='choice-8'>Peinture</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-9' name='choice' type='checkbox'
+                                                value='9'>
+                                            <label class='checkbox-label' for='choice-9'>Performance</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-10' name='choice' type='checkbox'
+                                                value='10'>
+                                            <label class='checkbox-label' for='choice-10'>Photographie</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-11' name='choice' type='checkbox'
+                                                value='11'>
+                                            <label class='checkbox-label' for='choice-11'>Sculpture</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-12' name='choice' type='checkbox'
+                                                value='12'>
+                                            <label class='checkbox-label' for='choice-12'>Street Art</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-13' name='choice' type='checkbox'
+                                                value='13'>
+                                            <label class='checkbox-label' for='choice-13'>Textile</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-14' name='choice' type='checkbox'
+                                                value='14'>
+                                            <label class='checkbox-label' for='choice-14'>Vidéo</label>
+                                        </li>
+                                        <li class='checkbox'>
+                                            <input class='checkbox-input' id='choice-15' name='choice' type='checkbox'
+                                                value='15'>
+                                            <label class='checkbox-label' for='choice-15'>Autre</label>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <p class='field required'>
+                                    <label class='label required' for='photo1'>Photo</label>
+                                    <input class='text-input' id='photo1' name='photo1' required type='file'
+                                        accept=".png, .jpg, .jpeg">
+                                </p>
+                                <p class='field '>
+                                    <label class='label ' for='photo2'>Autre Photo(facultatif)</label>
+                                    <input class='text-input' id='photo2' name='photo2' type='file'
+                                        accept=".png, .jpg, .jpeg">
+                                </p>
+                                <p class='field '>
+                                    <label class='label ' for='photo3'>Autre Photo(facultatif)</label>
+                                    <input class='text-input' id='photo3' name='photo3' type='file'
+                                        accept=".png, .jpg, .jpeg">
+                                </p>
+                                <p class='field '>
+                                    <label class='label ' for='photo4'>Autre Photo(facultatif)</label>
+                                    <input class='text-input' id='photo4' name='photo4' type='file'
+                                        accept=".png, .jpg, .jpeg">
+                                </p>
+
+                                <p class='field half'>
+                                    <input class='button' type='submit' value='Poster'>
+                                </p>
+                            </form>
+                            <!-- partial -->
 
                         </div>
                         <!-- Google Map -->
@@ -127,20 +258,21 @@
                     </div>
                 </div>
             </div>
-        
-                    
-        
+
+
+
         </section>
-    
-    
+
+
         <!-- end: Content -->
-    
+
         <!-- FOOTER -->
         <footer class="inverted" id="footer">
             <div class="copyright-content">
                 <div class="container">
                     <div class="row">
-                        <div class="copyright-text text-center"> &copy; 2023 Spectra Gallery - A Multi-Purpose Gallery. All Rights Reserved. </div>
+                        <div class="copyright-text text-center"> &copy; 2023 Spectra Gallery - A Multi-Purpose Gallery.
+                            All Rights Reserved. </div>
                     </div>
                 </div>
             </div>
@@ -155,6 +287,9 @@
     <script src="js/plugins.js"></script>
     <!--Template functions-->
     <script src="js/functions.js"></script>
-   </body>
+    <script src='formulaire/js/jquery.min.js'></script>
+    <script src='formulaire/js/jquery.customSelect.min.js'></script>
+    <script src='https://codepen.io/mican/pen/XgRmNr.js'></script>
+</body>
 
 </html>
